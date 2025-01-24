@@ -41,6 +41,8 @@ dependencies {
 
     implementation(project(":domain"))
 
+    implementation ("com.google.android.flexbox:flexbox:3.0.0")
+
     // Hilt
     implementation("com.google.dagger:hilt-android:2.51.1")
     ksp("com.google.dagger:hilt-compiler:2.51.1")
